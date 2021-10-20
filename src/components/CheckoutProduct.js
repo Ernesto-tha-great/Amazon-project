@@ -28,7 +28,7 @@ const CheckoutProduct = ({id, title, price, description, category, image, hasPri
                 {hasPrime && (
                     <div className="flex items-center space-x-2">
                             <img loading="lazy" className="w-12" src="https://links.papareact.com/fdw" alt="" />
-                            <p className="text-xs text-gray-500">Free Next Day Delivery</p>
+                            <p className="text-xs ">Free Next Day Delivery</p>
                     </div>
                 )}
             </div>
