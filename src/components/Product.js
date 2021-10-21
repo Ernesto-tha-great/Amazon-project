@@ -18,7 +18,7 @@ const Product = ({id, title, price, description, category, image}) => {
 
     const addItemToBasket = () => {
         const product = {
-            id, title, price, description, category, image
+            id, title, price, description, category, image, hasPrime, rating
         };
         //sending the product as an action to the redux store abi slice
         dispatch(addToBasket(product))
